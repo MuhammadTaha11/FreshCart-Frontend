@@ -219,7 +219,7 @@ Example:
 
 Add a short screen-recorded demonstration of the application here:
 
-**Demo:** YOUR_DEMO_LINK
+**Demo:** [YOUR_DEMO_LINK](https://lnkd.in/p/dzadUJFH)
 
 A 60–90 second demo should show the main flow:
 
