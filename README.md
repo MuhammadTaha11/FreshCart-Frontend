@@ -4,10 +4,6 @@ A full-stack grocery shopping mobile application built with **React Native and E
 
 FreshCart provides a complete shopping flow from browsing and filtering products to cart management, checkout, order placement, order history, and profile management.
 
-## 📱 Preview
-
-> Add your screenshots or a demo video here.
-
 ### Main Screens
 - Login / Authentication
 - Home
