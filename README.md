@@ -194,34 +194,26 @@ A typical user flow can be tested with:
 
 ## 📸 Screenshots
 
-Add screenshots to a `screenshots/` directory and display your best screens here.
+These are the screenshots of UI in both dark/light Themes.
 
-Recommended screenshots:
+<img width="80" height="140" alt="4a7cb161-253f-4edd-ad64-f76f92aa691f" src="https://github.com/user-attachments/assets/b086ccd9-ad2e-4844-b480-f22650cac39e" />
+<img width="80" height="140" alt="5c6574b5-21c9-4fc9-ad37-7e204bc8387d" src="https://github.com/user-attachments/assets/b947fa2c-e56f-4700-a66b-a4f961cedf9e" />
+<img width="80" height="140" alt="ac5c9200-171a-4ab8-9813-99596c85d979" src="https://github.com/user-attachments/assets/87e89966-3e15-44e8-b677-3271f4ef5533" />
+<img width="80" height="140" alt="fbbc1a94-0b6e-428a-8530-9bf5a9675142" src="https://github.com/user-attachments/assets/8dfd27e0-5432-4d01-855b-e796aec5d368" />
+<img width="80" height="140" alt="f722d62a-03b7-40b4-9ff2-3c602496fd36" src="https://github.com/user-attachments/assets/75d6614c-0523-4b34-b8c4-71f93cf3b32d" />
+<img width="80" height="140" alt="b0cd609c-04c0-4c65-b844-b0b4af82cc04" src="https://github.com/user-attachments/assets/c8b8d0e1-de9d-45de-84cd-d7739c2252e4" />
+<img width="80" height="140" alt="768899ba-4253-4070-8acd-c1303d32a934" src="https://github.com/user-attachments/assets/7929e94f-b8e2-42f4-bebf-5ec64aad9ba6" />
+<img width="80" height="140" alt="02f2cab2-4635-43f9-89e1-41c49370cf04" src="https://github.com/user-attachments/assets/3088529e-12a4-44e9-b657-99d9299e0304" />
+<img width="80" height="140" alt="0e8127fa-439d-47d3-8ad0-bc4c78647043" src="https://github.com/user-attachments/assets/19e96ce1-9434-4473-862c-7df8ea01a959" />
+<img width="80" height="140" alt="0a0535eb-0057-47bd-a4da-51edabe7d44f" src="https://github.com/user-attachments/assets/16e39d35-5e25-4844-8323-b21c3146254e" />
+<img width="80" height="140" alt="75906a25-6645-4046-87bc-802287d90d2b" src="https://github.com/user-attachments/assets/6454bad0-29cc-4936-b62d-48df974f629e" />
 
-- `login.png`
-- `home.png`
-- `categories.png`
-- `filters.png`
-- `cart.png`
-- `checkout.png`
-- `order-details.png`
-- `orders.png`
-- `profile.png`
-- `dark-theme.png`
-
-Example:
-
-```markdown
-![Home Screen](screenshots/home.png)
-```
 
 ## 🎥 Demo
 
-Add a short screen-recorded demonstration of the application here:
-
 **Demo:** [YOUR_DEMO_LINK](https://lnkd.in/p/dzadUJFH)
 
-A 60–90 second demo should show the main flow:
+This Is Demo Video to Show All The Functionalities:
 
 **Login → Browse → Filter → Add to Cart → Checkout → Place Order → Order Details → Profile**
 
