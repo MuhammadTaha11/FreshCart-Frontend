@@ -1,50 +1,274 @@
-# Welcome to your Expo app 👋
+# FreshCart 🛒
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A full-stack grocery shopping mobile application built with **React Native and Expo**, with a **Node.js backend** and **MongoDB database**.
 
-## Get started
+FreshCart provides a complete shopping flow from browsing and filtering products to cart management, checkout, order placement, order history, and profile management.
 
-1. Install dependencies
+## 📱 Preview
 
-   ```bash
-   npm install
-   ```
+> Add your screenshots or a demo video here.
 
-2. Start the app
+### Main Screens
+- Login / Authentication
+- Home
+- Categories
+- Product Search & Filtering
+- Cart
+- Checkout
+- Order Details
+- All Orders
+- Profile
+- Dark & Light Themes
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Features
 
-In the output, you'll find options to open the app in a
+- 🔐 User authentication
+- 🏠 Grocery home page
+- 🛍️ Product browsing
+- 🔎 Product search
+- 🏷️ Category-based browsing
+- 🎛️ Product filtering
+- 💰 Price filtering
+- 🛒 Add products to cart
+- ➕ Increase product quantity
+- ➖ Decrease product quantity
+- 🗑️ Remove products from cart
+- 💵 Automatic cart total calculation
+- 📦 Checkout
+- 🚚 Delivery address and order summary
+- 💳 Cash on delivery payment option
+- 📋 Order placement
+- 🔎 Detailed order view
+- 📜 Order history
+- 👤 User profile
+- 📊 Order status information
+- 🌙 Dark theme
+- ☀️ Light theme
+- 📱 Mobile-first responsive UI
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Mobile App
+- React Native
+- Expo
+- Expo Router
+- JavaScript / TypeScript
+- NativeWind / Tailwind CSS
 
-## Get a fresh project
+### Backend
+- Node.js
+- Fastify
+- REST APIs
 
-When you're ready, run:
+### Database
+- MongoDB
+- Mongoose
 
-```bash
-npm run reset-project
+### API & Storage
+- Axios
+- AsyncStorage
+- JWT-based authentication
+
+> Update this section if any of the technologies above are not used in the final version of the project.
+
+## 🏗️ Application Architecture
+
+```text
+React Native + Expo
+        │
+        │ Axios / REST API
+        ▼
+Node.js + Fastify
+        │
+        │ Mongoose
+        ▼
+     MongoDB
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+The mobile application communicates with the backend through REST APIs. The backend handles authentication, products, cart operations, and orders, while MongoDB stores the application data.
 
-## Learn more
+## 🔄 Shopping Flow
 
-To learn more about developing your project with Expo, look at the following resources:
+```text
+Login / Register
+       ↓
+     Home
+       ↓
+Categories / Search / Filters
+       ↓
+    Products
+       ↓
+      Cart
+       ↓
+   Checkout
+       ↓
+  Place Order
+       ↓
+Order Details / Order History
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📂 Project Structure
 
-## Join the community
+```text
+freshcart/
+├── app/
+├── components/
+├── assets/
+├── context/
+├── hooks/
+├── services/
+├── utils/
+├── constants/
+├── package.json
+├── app.json
+├── tsconfig.json
+└── README.md
+```
 
-Join our community of developers creating universal apps.
+The exact structure may vary depending on the final project organization.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js
+- npm
+- Expo CLI / Expo tooling
+- MongoDB
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+cd freshcart
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the Expo development server:
+
+```bash
+npx expo start
+```
+
+Then open the application using Expo Go or an available Android/iOS emulator.
+
+## 🔑 Environment Variables
+
+Do not commit private credentials, database passwords, JWT secrets, or other sensitive information to GitHub.
+
+Create an environment file for values such as:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+Use the environment-variable names required by your actual backend configuration.
+
+## 🧪 Testing the Application
+
+A typical user flow can be tested with:
+
+1. Create an account or log in.
+2. Browse products from the home screen.
+3. Open categories and apply filters.
+4. Add products to the cart.
+5. Increase or decrease quantities.
+6. Review the cart total.
+7. Continue to checkout.
+8. Place an order.
+9. Open order details.
+10. View the order in All Orders.
+11. Open the profile page.
+12. Test both dark and light themes.
+
+## 📸 Screenshots
+
+Add screenshots to a `screenshots/` directory and display your best screens here.
+
+Recommended screenshots:
+
+- `login.png`
+- `home.png`
+- `categories.png`
+- `filters.png`
+- `cart.png`
+- `checkout.png`
+- `order-details.png`
+- `orders.png`
+- `profile.png`
+- `dark-theme.png`
+
+Example:
+
+```markdown
+![Home Screen](screenshots/home.png)
+```
+
+## 🎥 Demo
+
+Add a short screen-recorded demonstration of the application here:
+
+**Demo:** YOUR_DEMO_LINK
+
+A 60–90 second demo should show the main flow:
+
+**Login → Browse → Filter → Add to Cart → Checkout → Place Order → Order Details → Profile**
+
+## 📚 What I Learned
+
+Building FreshCart provided practical experience with:
+
+- Building a complete React Native application
+- Creating reusable mobile UI components
+- Navigation with Expo Router
+- Connecting a mobile frontend to a backend API
+- Designing and consuming REST APIs
+- Working with Node.js and Fastify
+- Working with MongoDB and Mongoose
+- Implementing authentication
+- Managing cart and order workflows
+- Handling API requests and errors
+- Managing application state
+- Building dark and light themes
+- Structuring a full-stack application
+
+## 🔮 Future Improvements
+
+Possible future improvements include:
+
+- Online payment integration
+- Push notifications
+- Product reviews and ratings
+- Wishlist functionality
+- Admin dashboard
+- Delivery partner tracking
+- Product stock management
+- Order status notifications
+
+## 👨‍💻 Developer
+
+**Muhammad Taha**
+
+Student Software Developer
+
+**Skills:** React • React Native • Node.js • MongoDB • Expo • Tailwind CSS
+
+- GitHub: YOUR_GITHUB_PROFILE
+- LinkedIn: YOUR_LINKEDIN_PROFILE
+
+---
+
+## ⭐ Project Note
+
+FreshCart was developed as a personal full-stack project to practice building a real-world mobile shopping application from frontend to backend and database integration.
